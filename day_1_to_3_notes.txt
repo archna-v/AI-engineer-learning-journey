@@ -1,0 +1,392 @@
+AI Engineer Bootcamp Learning Notes
+
+Course: AI Engineer Course 2026 – Complete AI Engineer Bootcamp (Udemy)
+
+Student: Archna V
+
+Duration Covered: Days 1–3
+
+Day 1: AI & Machine Learning Fundamentals
+
+1. Data Collection
+
+Data can be collected using: • Web Scraping
+• APIs
+• Existing Databases
+
+Key Principle
+
+Garbage In → Garbage Out
+
+The quality of data directly affects model performance.
+
+2. Types of Data
+
+Labeled Data
+
+✓ Contains predefined labels or annotations
+
+Example:
+
+Dog → "Dog"
+
+Cat → "Cat"
+
+
+Advantages:
+
+High accuracy
+
+Suitable for supervised learning
+
+Better evaluation
+
+
+Unlabeled Data
+
+✓ No predefined labels
+
+Advantages:
+
+Easy to collect
+
+Lower cost
+
+Useful for pattern discovery
+
+
+3. Metadata
+
+Metadata is information that describes other data.
+
+Examples:
+
+Author
+
+Date Created
+
+File Size
+
+Location Information
+
+
+4. Machine Learning
+
+Machine Learning enables systems to learn patterns from data and make predictions.
+
+Types of Machine Learning
+
+Supervised Learning
+
+Uses labeled data
+
+Learns from input-output pairs
+
+
+Unsupervised Learning
+
+Uses unlabeled data
+
+Finds hidden patterns
+
+
+Reinforcement Learning
+
+Learns through rewards and penalties
+
+Commonly used in robotics and gaming
+
+
+
+---
+
+Day 2: Deep Learning, Computer Vision & Generative AI
+
+1. Deep Learning
+
+Deep Learning is a subset of Machine Learning that uses Artificial Neural Networks (ANNs).
+
+Neural Network Architecture
+
+Input Layer → Hidden Layer(s) → Output Layer
+
+Working
+
+1. Input layer receives data
+
+
+2. Hidden layers extract features
+
+
+3. Output layer produces results
+
+
+
+2. Robotics and AI
+
+AI-powered robots combine:
+
+Computer Vision
+
+Navigation
+
+Reinforcement Learning
+
+NLP
+
+
+Examples:
+
+Tesla Optimus
+
+Da Vinci Surgical Robot
+
+
+3. Computer Vision
+
+Computer Vision allows machines to understand images and videos.
+
+Applications
+
+Object Detection
+
+Face Recognition
+
+Medical Imaging
+
+Autonomous Vehicles
+
+
+Architectures
+
+CNN
+
+Convolutional Neural Networks specialized for image processing.
+
+Transformers
+
+Used in both vision and language applications.
+
+GANs
+
+Generate realistic synthetic images.
+
+4. Generative AI
+
+Generative AI creates new content such as:
+
+Text
+
+Images
+
+Audio
+
+Video
+
+
+Technologies
+
+Large Language Models (LLMs)
+
+Diffusion Models
+
+GANs
+
+NeRF
+
+Hybrid Models
+
+
+
+---
+
+Day 3: NLP, LLMs & Transformers
+
+1. Natural Language Processing (NLP)
+
+NLP enables computers to understand and generate human language.
+
+Applications
+
+Translation
+
+Summarization
+
+Question Answering
+
+Chatbots
+
+
+2. Language Models
+
+Masked Language Models
+
+Predict missing words using surrounding context.
+
+Autoregressive Models
+
+Predict the next word using previous words.
+
+3. Large Language Models (LLMs)
+
+Capabilities:
+
+Text Generation
+
+Coding Assistance
+
+Summarization
+
+Question Answering
+
+
+4. Evolution of Language Models
+
+N-Gram → RNN → LSTM → Transformers
+
+RNN
+
+Processes sequential data
+
+Suffers from vanishing gradient problem
+
+
+LSTM
+
+Advantages
+
+Better memory retention
+
+Handles long sequences
+
+
+Disadvantages
+
+Higher computational cost
+
+
+Transformers
+
+Advantages
+
+Faster training
+
+Better scalability
+
+Improved context understanding
+
+
+Attention Mechanism
+
+Allows the model to focus on important words while processing text.
+
+5. LLM Development Lifecycle
+
+1. Model Design
+
+
+2. Dataset Engineering
+
+
+3. Pre-training
+
+
+4. Evaluation
+
+
+5. Post-training
+
+
+6. Fine-tuning
+
+
+7. Final Evaluation
+
+
+
+6. AI Challenges
+
+Hallucinations
+
+Inconsistency
+
+Latency
+
+Data Quality Issues
+
+
+7. APIs
+
+Client → API → AI Model → Response
+
+8. Vector Databases
+
+Store embeddings generated from:
+
+Text
+
+Images
+
+Audio
+
+Video
+
+
+Benefits:
+
+Semantic Search
+
+Similarity Search
+
+AI Memory Systems
+
+
+Example: Pinecone
+
+9. AI Development Tools
+
+Hugging Face
+
+Model Sharing
+
+Fine-tuning
+
+Evaluation
+
+
+LangChain
+
+AI Applications
+
+RAG Systems
+
+Workflow Management
+
+
+
+---
+
+Key Takeaways
+
+✅ Data quality determines AI performance
+
+✅ Machine Learning learns patterns from data
+
+✅ Deep Learning uses neural networks
+
+✅ Computer Vision enables image understanding
+
+✅ NLP powers language-based AI systems
+
+✅ Transformers drive modern LLMs
+
+✅ Vector databases support semantic search
+
+✅ APIs connect AI models with applications
+
+
+---
+Conclusion
+
+The first three days of the AI Engineer Bootcamp provided a strong foundation in Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, NLP, LLMs, Generative AI, and modern AI development tools. These concepts form the building blocks for creating intelligent applications and advancing toward becoming an AI Engineer.
+
