@@ -55,7 +55,7 @@ Lower cost
 Useful for pattern discovery
 
 
-3. Metadata
+3.Metadata
 
 Metadata is information that describes other data.
 
