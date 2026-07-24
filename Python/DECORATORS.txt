@@ -1,0 +1,13 @@
+DECORATORS: 
+Create a decorator called logger that prints a message before and after a function runs. Use it on a function greet() that prints "Hello, Python!"
+
+def logger(func):
+    def hello():
+        print("Before")
+        func()
+        print("After")
+    return hello
+@logger
+def greet():
+    print("Hello!,Python")
+greet()
