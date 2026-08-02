@@ -1,0 +1,16 @@
+Create a Python program using a class named Laptop.
+
+Your task:
+
+Define a class Laptop.
+Inside it, create a method details(self, brand, ram) (or any two properties you want).
+Create two different Laptop objects.
+Call the details() method for each object, passing different values (example: "Dell", "16GB" and "HP", "8GB").
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - -
+class Laptop():
+    def details(self,name,storage):
+        print("Printing", name,storage)
+ob1=Laptop() #Object creation
+ob2=Laptop()
+ob1.details("dell","16GB") #Method calling
+ob2.details("HP","8GB")
